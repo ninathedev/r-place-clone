@@ -1,0 +1,31 @@
+# Canvas size
+# We recommend not to make it go above 70 because we did not make zooming in and out yet.
+canvas:
+  width: 35
+  height: 35
+
+# Time in seconds between each pixel placement
+timer: 60
+
+# Color palette
+# 0: '#FFFFFF', '#E4E4E4', '#888888', '#222222', '#FFA7D1', '#E50000', '#E59500', '#A06A42', '#E5D900', '#94E044', '#02BE01', '#00D3DD', '#0083C7', '#0000EA', '#CF6EE4', '#820080'
+# 1: '#BE0039', '#FF4500', '#FFA800', '#FFD635', '#00A368', '#00CC78', '#7EED56', '#00756F', '#009EAA', '#2450A4', '#3690EA', '#51E9F4', '#493AC1', '#6A5CFF', '#811E9F', '#B44AC0', '#FF3881', '#FF99AA', '#6D482F', '#9C6926', '#000000', '#898D90', '#D4D7D9', '#FFFFFF'
+# 2: '#6D001A', '#BE0039', '#FF4500', '#FFA800', '#FFD635', '#FFF8B8', '#00A368', '#00CC78', '#7EED56', '#00756F', '#009EAA', '#00CCC0', '#2450A4', '#3690EA', '#51E9F4', '#493AC1', '#6A5CFF', '#94B3FF', '#811E9F', '#B44AC0', '#E4ABFF', '#DE107F', '#FF3881', '#FF99AA', '#6D482F', '#9C6926', '#FFB470', '#000000', '#515252', '#898D90', '#D4D7D9', '#FFFFFF'
+# 3: '#000000', '#515252', '#898D90', '#D4D7D9', '#FFFFFF'
+# 4: '#FFFFFF'
+
+# TLDR:
+# 0: '2017/2022 initial'
+# 1: '2022 day 2'
+# 2: '2022 day 3'
+# 3: '2023 Greyout'
+# 4: '2022/2023 Whiteout'
+colorPalette: 0
+
+# MySQL database (required)
+mysql:
+  host: 'localhost'
+  port: 3306
+  user: 'root'
+  password: ''
+  database: 'pixelcanvas'
